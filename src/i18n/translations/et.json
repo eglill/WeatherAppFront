@@ -1,3 +1,34 @@
 {
-  "language": "Eesti"
+  "language": "Eesti",
+  "searchLocation": "Otsi asukohta",
+  "sevenDaysWeather": "Seitsme Päeva Ilm",
+  "weatherCodes": {
+    "CLEAR_SKY": "Selge taevas",
+    "MAINLY_CLEAR": "Peamiselt selge",
+    "PARTLY_CLOUDY": "Osaliselt pilves",
+    "OVERCAST": "Pilves",
+    "FOG": "Udu",
+    "RIME_FOG": "Jääkirmega udu",
+    "DRIZZLE_LIGHT": "Uduvihm: Kerge intensiivsus",
+    "DRIZZLE_MODERATE": "Uduvihm: Mõõdukas intensiivsus",
+    "DRIZZLE_DENSE": "Uduvihm: Tihe intensiivsus",
+    "FREEZING_DRIZZLE_LIGHT": "Kerge uduvihm: Kerge intensiivsus",
+    "FREEZING_DRIZZLE_DENSE": "Kerge uduvihm: Tihe intensiivsus",
+    "RAIN_SLIGHT": "Vihm: Kerge intensiivsus",
+    "RAIN_MODERATE": "Vihm: Mõõdukas intensiivsus",
+    "RAIN_HEAVY": "Vihm: Tugev intensiivsus",
+    "FREEZING_RAIN_LIGHT": "Kerge jäine vihm: Kerge intensiivsus",
+    "FREEZING_RAIN_HEAVY": "Kerge jäine vihm: Tugev intensiivsus",
+    "SNOWFALL_SLIGHT": "Lumesadu: Kerge intensiivsus",
+    "SNOWFALL_MODERATE": "Lumesadu: Mõõdukas intensiivsus",
+    "SNOWFALL_HEAVY": "Lumesadu: Tugev intensiivsus",
+    "SNOW_GRAINS": "Lumeterad",
+    "RAIN_SHOWERS_SLIGHT": "Vihmasadu: Kerge intensiivsus",
+    "RAIN_SHOWERS_MODERATE": "Vihmasadu: Mõõdukas intensiivsus",
+    "RAIN_SHOWERS_VIOLENT": "Vihmasadu: Tugev intensiivsus",
+    "SNOW_SHOWERS_SLIGHT": "Lumesadu: Kerge intensiivsus",
+    "SNOW_SHOWERS_HEAVY": "Lumesadu: Tugev intensiivsus",
+    "THUNDERSTORM_SLIGHT": "Äike: Kerge",
+    "THUNDERSTORM_HEAVY": "Äike: Tugev"
+  }
 }

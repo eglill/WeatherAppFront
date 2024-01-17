@@ -44,13 +44,14 @@ onMounted(loadLanguageOptions);
 </script>
 
 <template>
-    <div class="locale-changer">
-      <select v-model="$i18n.locale" @change="handleLocaleChange">
-        <option v-for="languageOption in languageOptions" :key="`locale-${languageOption.value}`" :value="languageOption.value">
-          {{ languageOption.label }}
-        </option>
-      </select>
-    </div>
+  <div>
+    <select v-model="$i18n.locale" @change="handleLocaleChange" class="locale-changer bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+      <option v-for="languageOption in languageOptions" :key="`locale-${languageOption.value}`" :value="languageOption.value"
+      class= "absolute bg-light-secondary text-black w-full shadow-md py-2 px-1 top-[66px] dark:bg-dark-secondary dark:text-white">
+        {{ languageOption.label }}
+      </option>
+    </select>
+  </div>
 </template>
 
 <style scoped>
